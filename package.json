@@ -1,5 +1,5 @@
 {
-    "name": "code-viewer",
+    "name": "shiki-viewer",
     "private": true,
     "type": "module",
     "scripts": {
@@ -11,6 +11,7 @@
         "extends": "@jiakun-zhao"
     },
     "dependencies": {
+        "shiki": "^0.14.1",
         "vue": "^3.2.47"
     },
     "devDependencies": {

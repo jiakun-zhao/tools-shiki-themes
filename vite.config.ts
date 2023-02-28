@@ -16,10 +16,7 @@ export default defineConfig({
         Vue(),
         UnoCSS({
             presets: [
-                presetUno({
-                    dark: 'media',
-                    preflight: false,
-                }),
+                presetUno({ preflight: false }),
                 presetAttributify(),
                 presetIcons({
                     scale: 1.2,
